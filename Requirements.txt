@@ -1,0 +1,12 @@
+# Local Development Server
+# Allows testing the application without browser CORS issues
+# Usage: python -m http.server 8000
+# No external python packages are mandatory, but these support development & testing:
+
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Optional: Framework for headless integration/browser testing if needed in the future
+# selenium>=4.15.0
+pip install -r requirements.txt
+python -m http.server 8000
